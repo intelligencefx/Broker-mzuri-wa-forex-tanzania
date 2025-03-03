@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #fff;
+    color: #333;
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    color: #000;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.nav-links li a:hover {
+    color: #007bff;
+}
+
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.broker-list h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #007bff;
+}
+
+.broker-card {
+    border: 1px solid #e7e7e7;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+.broker-logo {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.broker-card h2 {
+    color: #007bff;
+    margin-bottom: 1rem;
+}
+
+.broker-details {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-bottom: 1rem;
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.detail-item {
+    text-align: center;
+    font-weight: bold;
+}
+
+.introduction {
+    margin-bottom: 1rem;
+    line-height: 1.8;
+    display: none; /* Hidden by default, shown via JavaScript */
+}
+
+.visit-btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s;
+    margin-right: 1rem;
+}
+
+.visit-btn:hover {
+    background-color: #0056b3;
+}
+
+.toggle-details-btn {
+    padding: 0.5rem 1rem;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.toggle-details-btn:hover {
+    background-color: #218838;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-top: 1px solid #e7e7e7;
+    margin-top: 2rem;
+}
